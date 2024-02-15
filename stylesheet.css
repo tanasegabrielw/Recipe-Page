@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -37,7 +37,7 @@ margin-bottom: 4rem;
 flex:1;
 }
 
-img{
+img,table{
     width: 100%; /* Makes the image fit the recipe-card div */ 
     height: auto;
 }
@@ -48,3 +48,14 @@ img,
     border-radius: 1rem;
 }
 
+.prep-info-box{
+    background-color: hsl(332 51% 32% /0.1);
+}
+.prep-info-box .text-heading{
+color:hsl(332, 51%, 32%);
+font-weight: bold;
+}
+
+h2,td{
+    color:hsl(14, 45%, 36%);
+}
