@@ -12,7 +12,7 @@
    line-height: 1.5;
    font-family: 'Outfit',sans-serif;
    font-weight: 400;
-   color:hsl(24, 5%, 18%);
+   color:hsl(30, 10%, 34%);
 }
 
 ol,ul{
@@ -48,6 +48,9 @@ img,table{
     height: auto;
 }
 
+.introduction p{
+font-size: 0.9rem;
+}
 .recipe-card,
 img,
 .prep-info-box{
@@ -60,9 +63,14 @@ img,
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 }
-.prep-info-box .text-heading{
+
+.bold-text,
+li{
+    font-size: 0.9rem;
+    letter-spacing:-0.2px;
+}
+.prep-info-box .prep-text{
 color:hsl(332, 51%, 32%);
 font-weight: 600;
 font-size: 1.2rem;
@@ -79,14 +87,15 @@ h1,h2{
 
 h1{
     font-size: 2rem;
+    color:hsl(24, 5%, 18%);
 }
 
 .bold-text{
     font-weight: 600;
-    
 }
 
-h1,p,.prep-info-box,h2{
+h1,p,.prep-info-box,h2{    /* to ensure spacing between content*/
     margin-bottom:1.2rem;
     margin-top:1.2rem;
 }
+
