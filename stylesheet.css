@@ -101,14 +101,26 @@ h1{
     margin-left: 0.6rem;
 }
 
-h1,p,.prep-info-box,h2{    /* to ensure spacing between content*/
+h1,p,.prep-info-box,h2,table{    /* to ensure spacing between content*/
     margin-bottom:1.2rem;
     margin-top:1.2rem;
     margin-left:0.4rem;
 }
 
 .ingredients,
-.instructions{
+.instructions,
+tr.border-bottom{
     border-bottom: 1px solid hsla(32, 10%, 34%, 0.322);
 }
+.caption{
+    font-size: 0.9rem;
+}
 
+table{
+    border-collapse: collapse;
+    text-align: left;
+}
+
+td,th{
+    padding:0.9rem;
+}
