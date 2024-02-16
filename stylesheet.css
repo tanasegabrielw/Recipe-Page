@@ -23,6 +23,9 @@ li{
     margin-left: 1.1rem;
     margin-bottom: 1rem;
 }
+li::marker{
+    color:hsl(14, 45%, 36%);
+}
 
 body{
 background-color: hsl(30, 54%, 90%);
