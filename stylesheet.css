@@ -15,8 +15,8 @@
    color:hsl(30, 10%, 34%);
 }
 
-ol,ul{
-    list-style:inside;
+ul,ol{
+    list-style-position:inside;
 }
 
 li{
@@ -25,6 +25,7 @@ li{
 }
 li::marker{
     color:hsl(14, 45%, 36%);
+    font-weight: 600;
 }
 
 body{
@@ -62,7 +63,7 @@ img,
 
 .prep-info-box{
     background-color: hsl(332 51% 32% /0.08);
-    padding:0.6rem 1.1rem;
+    padding:0.9rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -75,8 +76,10 @@ li{
 }
 .prep-info-box .prep-text{
 color:hsl(332, 51%, 32%);
-font-weight: 600;
-font-size: 1.2rem;
+font-weight: 550;
+font-size: 1.1rem;
+margin-bottom:0.6rem;
+margin-left: 0.4rem;;
 }
 
 h2,td{
@@ -94,11 +97,13 @@ h1{
 }
 
 .bold-text{
-    font-weight: 600;
+    font-weight: 700;
+    margin-left: 0.6rem;
 }
 
 h1,p,.prep-info-box,h2{    /* to ensure spacing between content*/
     margin-bottom:1.2rem;
     margin-top:1.2rem;
+    margin-left:0.4rem;
 }
 
