@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
 
 
 *{
@@ -124,3 +122,12 @@ table{
 td,th{
     padding:0.9rem;
 }
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+     padding:1rem;
+    }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
