@@ -21,8 +21,8 @@ My first Front Mentor project. It is quite a simple page, but there are some sma
 Time to complete: 3 hours
 
 ### Screenshot
+![Desktop Preview](../Recipe-Page/design/Screenshot-Frontend-Mentor-Recipe-page.png?raw=true)
 
-(../Recipe-Page/design/Screenshot-Frontend-Mentor-Recipe-page.png)
 
 ### Links
 
